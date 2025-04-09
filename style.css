@@ -53,13 +53,15 @@ body {
 }
 
 .resources-container {
-    max-width: 1200px;
+    width: 1200px;
+    height: auto;
     margin: 40px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* border: #08244e 2px solid; */
     gap: 25px;
-    padding: 20px;
+    padding: 70px 0;
 }
 
 .resource-card {
