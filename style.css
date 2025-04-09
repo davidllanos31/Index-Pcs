@@ -86,7 +86,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(13, 71, 161, 0.7) 0%, rgba(21, 101, 192, 0.4) 100%);
+    background: linear-gradient(135deg, rgba(9, 33, 68, 0.7) 0%, rgba(21, 94, 178, 0.4) 100%);
     transition: all 0.5s ease;
     z-index: 0;
 }
@@ -152,7 +152,7 @@ body {
     height: 100%;
     background-color: #e8f0fe;
     border-radius: 15px;
-    border: 2px solid #c8d7f5;
+    border: 2px solid #434750;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,8 +162,8 @@ body {
 
 .resource-card:hover .computer-icon {
     transform: rotateY(180deg);
-    background-color: #0d47a1;
-    border-color: #0d47a1;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .icon-front, .icon-back {
@@ -281,7 +281,8 @@ body {
 
 /* Footer */
 .footer {
-    background: linear-gradient(90deg, #0d47a1, #1565c0);
+    /* y */
+    background: linear-gradient(90deg, #08244e, #4c81be);
     color: white;
     text-align: center;
     padding: 20px;
